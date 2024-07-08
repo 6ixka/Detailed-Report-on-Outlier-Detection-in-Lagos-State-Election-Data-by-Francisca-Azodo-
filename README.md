@@ -16,8 +16,7 @@ The analysis was conducted using Python, utilizing libraries such as pandas, num
 Column names and data types across the datasets were standardized to facilitate accurate merging.
 
 # Geocoding:
-Geocoding techniques were applied to add latitude and longitude values to polling units with missing coordinates using the Nominatim geocoding service from the geopy library.
-
+Geocoding techniques were applied to add latitude and longitude values to polling units with missing coordinates using the geocode for sheets and Mapping sheets.
 # Data Merging
 Combining Datasets:
 The datasets were merged into a single DataFrame, consolidating all relevant polling unit information and election results.
