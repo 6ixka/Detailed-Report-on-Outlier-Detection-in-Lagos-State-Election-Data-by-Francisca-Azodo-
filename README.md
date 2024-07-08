@@ -1,9 +1,5 @@
 # Detailed Report on Outlier Detection in Ogun State Election Data by Francisca Azodo
 
-# ![image](https://github.com/6ixka/Detailed-Report-on-Outlier-Detection-in-Lagos-State-Election-Data-by-Francisca-Azodo-/assets/163520580/38a102db-1fac-45cb-aa90-c012a7013908)
-
-# ![image](https://github.com/6ixka/Detailed-Report-on-Outlier-Detection-in-Lagos-State-Election-Data-by-Francisca-Azodo-/assets/163520580/68f7212a-eced-4fcf-9674-3a8f5c1aed08)
-
 # Introduction
 In light of the recent election, the Independent National Electoral Commission (INEC) has faced scrutiny over allegations of vote manipulation and irregularities. These claims have necessitated a thorough investigation to ensure the integrity of the election results. This report presents a comprehensive geospatial analysis aimed at identifying potential voting irregularities by detecting outlier polling units.
 
@@ -39,6 +35,9 @@ Votes received by each party at each polling unit were compared with the votes a
 
 # Outlier Score Calculation:
 Outlier scores for each party were calculated based on the deviation of votes from neighboring units. The score was computed as the absolute difference between the unit’s votes and the average votes of its neighbors.
+# ![image](https://github.com/6ixka/Detailed-Report-on-Outlier-Detection-in-Ogun-State-Election-Data-by-Francisca-Azodo-/assets/163520580/e1d11dcd-b39d-45d5-8027-284e434f2574)
+
+# ![image](https://github.com/6ixka/Detailed-Report-on-Outlier-Detection-in-Ogun-State-Election-Data-by-Francisca-Azodo-/assets/163520580/5a7a9e6f-3072-42dc-9837-9c9460efd331)
 
 # Normalization:
 Outlier scores were normalized to ensure comparability across different parties and polling units.
