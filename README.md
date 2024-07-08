@@ -26,8 +26,7 @@ The datasets were merged into a single DataFrame, consolidating all relevant pol
 A radius of 1 km was defined to identify neighboring polling units.
 
 # Distance Calculation:
-Geodesic distances between each polling unit and all others were calculated using the geopy library, determining which units fell within the defined radius.
-
+Geodesic distances between each polling unit and all others were calculated using the Harvesine formula on Excel sheet.
 # Outlier Detection
 # Vote Comparison:
 Votes received by each party at each polling unit were compared with the votes at neighboring units.
