@@ -1,10 +1,8 @@
 # Detailed Report on Outlier Detection in Ogun State Election Data by Francisca Azodo
 
+# ![image](https://github.com/6ixka/Detailed-Report-on-Outlier-Detection-in-Lagos-State-Election-Data-by-Francisca-Azodo-/assets/163520580/38a102db-1fac-45cb-aa90-c012a7013908)
 
-#![image](https://github.com/6ixka/Detailed-Report-on-Outlier-Detection-in-Lagos-State-Election-Data-by-Francisca-Azodo-/assets/163520580/38cb191a-ee5f-4ca5-8ff6-291fbcbedd5b)
-
-#![image](https://github.com/6ixka/Detailed-Report-on-Outlier-Detection-in-Lagos-State-Election-Data-by-Francisca-Azodo-/assets/163520580/0bfe03bb-743e-479a-8820-351fd2bf6e24)
-
+# ![image](https://github.com/6ixka/Detailed-Report-on-Outlier-Detection-in-Lagos-State-Election-Data-by-Francisca-Azodo-/assets/163520580/68f7212a-eced-4fcf-9674-3a8f5c1aed08)
 
 # Introduction
 In light of the recent election, the Independent National Electoral Commission (INEC) has faced scrutiny over allegations of vote manipulation and irregularities. These claims have necessitated a thorough investigation to ensure the integrity of the election results. This report presents a comprehensive geospatial analysis aimed at identifying potential voting irregularities by detecting outlier polling units.
