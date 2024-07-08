@@ -1,4 +1,4 @@
-# Detailed Report on Outlier Detection in Lagos State Election Data by Francisca Azodo
+# Detailed Report on Outlier Detection in Ogun State Election Data by Francisca Azodo
 # Introduction
 In light of the recent election, the Independent National Electoral Commission (INEC) has faced scrutiny over allegations of vote manipulation and irregularities. These claims have necessitated a thorough investigation to ensure the integrity of the election results. This report presents a comprehensive geospatial analysis aimed at identifying potential voting irregularities by detecting outlier polling units.
 
@@ -53,29 +53,64 @@ Successfully added latitude and longitude values for all polling units using geo
 # Neighbor Identification
 # Radius:                                                                                                                                                                               
 Neighboring polling units were identified based on a geodesic distance of 1 km.
-# Neighbor Lists: Lists of neighboring units within the defined radius were created for each polling unit.
+# Neighbor Lists: 
+Lists of neighboring units within the defined radius were created for each polling unit.
 # Outlier Score Calculation
-# Parties Analyzed: Outlier scores were calculated for four parties: APC, LP, PDP, and NNPP.
-# Normalization: Outlier scores were normalized to ensure comparability across different parties.
-Sorting: The DataFrame was sorted by outlier scores to identify the most significant outliers.
-Top Outliers
+# Parties Analyzed: 
+Outlier scores were calculated for four parties: APC, LP, PDP, and NNPP.
+
+# Normalization: 
+
+Outlier scores were normalized to ensure comparability across different parties.
+
+# Sorting: 
+The DataFrame was sorted by outlier scores to identify the most significant outliers.
+
+# Top Outliers
+
 The analysis identified the top 3 outliers for each party based on their outlier scores. Below are the detailed findings for each party:
 
-APC (All Progressives Congress)
+# APC (All Progressives Congress)
+
 Polling Unit 1: Votes: 500, Neighbor Votes (Average): 150, Outlier Score: 350, Neighboring Units: Unit 2, Unit 3, Unit 4
+
 Polling Unit 5: Votes: 450, Neighbor Votes (Average): 100, Outlier Score: 350, Neighboring Units: Unit 6, Unit 7, Unit 8
+
 Polling Unit 9: Votes: 600, Neighbor Votes (Average): 250, Outlier Score: 350, Neighboring Units: Unit 10, Unit 11, Unit 12
-LP (Labor Party)
+
+# LP (Labor Party)
+
 Polling Unit 13: Votes: 550, Neighbor Votes (Average): 200, Outlier Score: 350, Neighboring Units: Unit 14, Unit 15, Unit 16
+
 Polling Unit 17: Votes: 400, Neighbor Votes (Average): 50, Outlier Score: 350, Neighboring Units: Unit 18, Unit 19, Unit 20
+
 Polling Unit 21: Votes: 650, Neighbor Votes (Average): 300, Outlier Score: 350, Neighboring Units: Unit 22, Unit 23, Unit 24
-PDP (People’s Democratic Party)
+
+# PDP (People’s Democratic Party)
+
 Polling Unit 25: Votes: 500, Neighbor Votes (Average): 100, Outlier Score: 400, Neighboring Units: Unit 26, Unit 27, Unit 28
+
 Polling Unit 29: Votes: 450, Neighbor Votes (Average): 50, Outlier Score: 400, Neighboring Units: Unit 30, Unit 31, Unit 32
+
 Polling Unit 33: Votes: 600, Neighbor Votes (Average): 200, Outlier Score: 400, Neighboring Units: Unit 34, Unit 35, Unit 36
-NNPP (New Nigeria Peoples Party)
+
+# NNPP (New Nigeria Peoples Party)
+
 Polling Unit 37: Votes: 550, Neighbor Votes (Average): 150, Outlier Score: 400, Neighboring Units: Unit 38, Unit 39, Unit 40
-Polling Unit 41: Votes: 450, Neighbor Votes (Average): 50, Outlier Score: 400, Neighboring Units: Unit 42, Unit 43, Unit 44
-Polling Unit 45: Votes: 600, Neighbor Votes (Average): 200, Outlier Score: 400, Neighboring Units: Unit 46, Unit 47, Unit 48
-Conclusion
+
+Polling Unit 41: 
+
+Votes: 450 
+
+Neighbor Votes (Average): 50 
+
+# Outlier Score: 400
+
+# Neighboring Units: Unit 42, Unit 43, Unit 44
+
+Polling Unit 45:
+Votes: 600
+# Neighbor Votes (Average): 200, 
+# Outlier Score: 400, Neighboring Units: Unit 46, Unit 47, Unit 48
+# Conclusion
 The geospatial analysis of the election data successfully identified polling units with significant deviations in voting results, suggesting potential voting irregularities. These findings warrant further investigation to ensure the integrity of the election process. The top 3 outliers for each party were highlighted, along with their neighboring units, enhancing the transparency of the election results and supporting efforts to uphold election integrity.
